@@ -1,0 +1,296 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IronForge Market — Precision. Performance. Trust.</title>
+  <meta name="description" content="IronForge Market — a premium marketplace for tactical, protective, outdoor and training equipment from verified sellers. Demo interface.">
+  <meta name="theme-color" content="#0a0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230a0b0c'/%3E%3Cpath d='M13 11h14v3.4h-9.6v3.6h8v3.4h-8V29H13z' fill='%23c9cdd1'/%3E%3Cpath d='M24 26h4v3h-4z' fill='%23b4c27a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=6">
+</head>
+<body data-page="home">
+  <div data-site-header></div>
+
+  <main>
+    <!-- HERO ---------------------------------------------------------------->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div>
+          <span class="eyebrow">Verified Tactical Marketplace · Est. 2026</span>
+          <h1 class="h-display" id="hero-title">
+            <span class="line"><span>Precision.</span></span>
+            <span class="line"><span>Performance.</span></span>
+            <span class="line"><span class="metal-text">Trust.</span></span>
+          </h1>
+          <p class="hero-lede">Professional-grade tactical, protective and outdoor equipment from vetted sellers — every listing reviewed, every transaction compliance-checked.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#marketplace" data-icon-after>Explore Marketplace <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="#categories">View Categories</a>
+          </div>
+          <div class="hero-stats">
+            <div><b>12,400+</b><span>Verified listings</span></div>
+            <div><b>480</b><span>Vetted sellers</span></div>
+            <div><b>4.9<small style="font-size:.5em;color:var(--olive-bright)"> ★</small></b><span>Avg. rating</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <span class="ring r2"></span>
+          <span class="ring"></span>
+          <div class="stage" data-hero-stage></div>
+          <span class="hero-tag t1">Sentinel High-Cut · Certified</span>
+          <span class="hero-tag t2">Lab-tested shell</span>
+          <div class="hero-card glass" data-hero-card></div>
+        </div>
+      </div>
+      <span class="scroll-cue" aria-hidden="true">SCROLL</span>
+    </section>
+
+    <!-- TRUST STRIP --------------------------------------------------------->
+    <div class="trust-strip">
+      <div class="wrap">
+        <span data-icon="shield">Escrow-protected payments</span>
+        <span data-icon="badge">ID-verified sellers</span>
+        <span data-icon="truck">Tracked, discreet shipping</span>
+        <span data-icon="lock">256-bit encryption</span>
+        <span data-icon="headset">Expert support, 7 days</span>
+      </div>
+    </div>
+
+    <!-- CATEGORIES ---------------------------------------------------------->
+    <section class="section" id="categories" aria-labelledby="cat-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">01 — Categories</span>
+            <h2 id="cat-title">Equip for the mission</h2>
+          </div>
+          <p>Five curated departments, each held to the same listing standard: accurate specs, real photography and verified sellers.</p>
+        </div>
+        <div class="cat-grid reveal-stagger" data-categories></div>
+      </div>
+    </section>
+
+    <!-- FEATURED ------------------------------------------------------------>
+    <section class="section alt grid-bg" aria-labelledby="feat-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">02 — Featured</span>
+            <h2 id="feat-title">Field-proven picks</h2>
+          </div>
+          <a class="btn btn-ghost btn-sm" href="#marketplace">View all listings</a>
+        </div>
+        <div class="product-grid reveal-stagger" data-featured></div>
+      </div>
+    </section>
+
+    <!-- PRESTIGE TEASER ----------------------------------------------------->
+    <section class="section prestige-band" aria-labelledby="prestige-title">
+      <div class="wrap">
+        <div class="prestige-intro reveal">
+          <div>
+            <span class="eyebrow brass-eyebrow">The Prestige Collection</span>
+            <h2 id="prestige-title">Historic pieces.<br><span class="brass-text">Documented provenance.</span></h2>
+            <p>Buy and sell authenticated antique arms &amp; armour, instruments, medals, maps and campaign furniture — each piece examined by specialists and backed by a certificate of authenticity.</p>
+            <div class="hero-ctas">
+              <a class="btn btn-brass" href="heritage.html#collection">Browse the Collection <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-ghost" href="heritage.html#sell">Sell a Historic Piece</a>
+            </div>
+          </div>
+          <div class="prestige-art" data-prestige-art aria-hidden="true"></div>
+        </div>
+        <div class="product-grid prestige-grid reveal-stagger" data-prestige></div>
+      </div>
+    </section>
+
+    <!-- MARKETPLACE --------------------------------------------------------->
+    <section class="section" id="marketplace" aria-labelledby="mkt-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">03 — Marketplace</span>
+            <h2 id="mkt-title">Search the armory</h2>
+          </div>
+          <p>Filter by category, price and availability. Results update instantly.</p>
+        </div>
+
+        <form class="search-panel glass reveal" data-search-form role="search">
+          <div class="search-row">
+            <div class="field">
+              <label for="f-q">Search</label>
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+              <input id="f-q" class="control search-input" type="search" placeholder="Product, brand or keyword…" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="f-cat">Category</label>
+              <select id="f-cat" class="control"></select>
+            </div>
+            <div class="field">
+              <label for="f-price">Price</label>
+              <select id="f-price" class="control">
+                <option value="">Any price</option>
+                <option value="0-100">Under $100</option>
+                <option value="100-200">$100 – $200</option>
+                <option value="200-400">$200 – $400</option>
+                <option value="400-0">$400 and above</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-avail">Availability</label>
+              <select id="f-avail" class="control">
+                <option value="">Any availability</option>
+                <option value="in">In stock</option>
+                <option value="low">Low stock</option>
+                <option value="pre">Pre-order</option>
+              </select>
+            </div>
+            <button class="btn btn-primary" type="submit">Search</button>
+          </div>
+          <div class="filter-chips" data-chips></div>
+        </form>
+
+        <div class="results-bar">
+          <span data-count></span>
+          <label class="sort"><span class="mono" style="font-size:10.5px;letter-spacing:.14em">SORT</span>
+            <select id="f-sort" class="control">
+              <option value="featured">Featured</option>
+              <option value="rating">Top rated</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+            </select>
+          </label>
+        </div>
+        <div class="product-grid reveal-stagger" data-market aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- WHY ----------------------------------------------------------------->
+    <section class="section alt" id="about" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">04 — Why IronForge</span>
+            <h2 id="why-title">Built on accountability</h2>
+          </div>
+          <p>IronForge was founded by veterans and outdoor professionals to make buying serious equipment transparent, lawful and safe.</p>
+        </div>
+        <div class="why-grid reveal-stagger">
+          <div class="why-card"><span class="corner"></span><div class="w-icon" data-icon="lock"></div><h3>Secure Shopping</h3><p>Escrow-protected payments, encrypted checkout and fraud monitoring on every transaction.</p><div class="stat"><b>0</b> card data stored by sellers</div></div>
+          <div class="why-card"><span class="corner"></span><div class="w-icon" data-icon="badge"></div><h3>Verified Sellers</h3><p>Every seller passes identity, licensing and business verification before listing a single item.</p><div class="stat"><b>480</b> vetted sellers</div></div>
+          <div class="why-card"><span class="corner"></span><div class="w-icon" data-icon="award"></div><h3>Quality Products</h3><p>Listings are reviewed for accuracy and authenticity. Counterfeits mean permanent removal.</p><div class="stat"><b>98.7%</b> as-described rate</div></div>
+          <div class="why-card"><span class="corner"></span><div class="w-icon" data-icon="headset"></div><h3>Customer Support</h3><p>Real specialists — many with field experience — available seven days a week.</p><div class="stat"><b>&lt; 2 hr</b> median response</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANDS -------------------------------------------------------------->
+    <section class="section" aria-labelledby="brand-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">05 — Suppliers</span>
+            <h2 id="brand-title">Trusted brands &amp; suppliers</h2>
+          </div>
+          <p>Authorised dealers and manufacturers selling direct.</p>
+        </div>
+        <div class="brands reveal-stagger" data-brands></div>
+      </div>
+    </section>
+
+    <!-- REVIEWS ------------------------------------------------------------->
+    <section class="section alt grid-bg" aria-labelledby="rev-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">06 — Reviews</span>
+            <h2 id="rev-title">Trusted in the field</h2>
+          </div>
+        </div>
+        <div class="reviews-layout">
+          <aside class="score-panel reveal">
+            <span class="eyebrow">Marketplace score</span>
+            <div class="big" style="margin-top:16px">4.9</div>
+            <div class="stars" style="margin:8px 0 0"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg></div>
+            <p>From 38,200+ verified buyer reviews</p>
+            <div class="bars">
+              <div class="bar-row"><span>5★</span><div class="bar"><i style="width:86%"></i></div><span>86%</span></div>
+              <div class="bar-row"><span>4★</span><div class="bar"><i style="width:10%"></i></div><span>10%</span></div>
+              <div class="bar-row"><span>3★</span><div class="bar"><i style="width:3%"></i></div><span>3%</span></div>
+              <div class="bar-row"><span>2★</span><div class="bar"><i style="width:1%"></i></div><span>1%</span></div>
+              <div class="bar-row"><span>1★</span><div class="bar"><i style="width:0.5%"></i></div><span>&lt;1%</span></div>
+            </div>
+          </aside>
+          <div class="review-grid reveal-stagger" data-reviews></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ ----------------------------------------------------------------->
+    <section class="section" id="support" aria-labelledby="faq-title">
+      <div class="wrap faq-layout">
+        <div class="faq-aside reveal">
+          <span class="eyebrow">07 — Support</span>
+          <div class="section-head" style="margin-bottom:16px"><h2 id="faq-title">Questions, answered</h2></div>
+          <p>Everything you need to know about buying, selling and compliance on IronForge.</p>
+          <div class="support-card">
+            <h4>Still need help?</h4>
+            <p>Our support specialists respond in under two hours, seven days a week.</p>
+            <a class="btn btn-ghost btn-sm" href="#">Contact Support</a>
+          </div>
+        </div>
+        <div class="faq reveal">
+          <div class="faq-item open">
+            <button class="faq-q" type="button" aria-expanded="true">How are sellers verified?<span class="pm"></span></button>
+            <div class="faq-a"><div><p>Every seller completes identity verification, business registration checks and — where applicable — licensing review before they can list. We re-verify annually and monitor performance continuously.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">Which items are restricted?<span class="pm"></span></button>
+            <div class="faq-a"><div><p>Some protective equipment and other regulated items are subject to regional laws. Restricted listings are clearly labelled, and sellers automatically decline orders to jurisdictions where an item cannot be sold.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">How does payment protection work?<span class="pm"></span></button>
+            <div class="faq-a"><div><p>Payments are held in escrow until you confirm delivery. If an item doesn't arrive or isn't as described, our resolution team steps in. (In this demo interface, no payments are processed.)</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">What is the return policy?<span class="pm"></span></button>
+            <div class="faq-a"><div><p>Most unused items can be returned within 30 days in original packaging. Individual sellers may offer longer windows; regulated items can carry additional conditions shown on the listing.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">Can I sell on IronForge?<span class="pm"></span></button>
+            <div class="faq-a"><div><p>Yes. Apply through the "Become a Seller" page. Approval typically takes three to five business days once documents are received.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA ----------------------------------------------------------------->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="cta-band reveal">
+          <div>
+            <span class="eyebrow">Field Briefing</span>
+            <h2>New drops. No noise.</h2>
+            <p>One email a month with new arrivals, restocks and field-tested reviews.</p>
+          </div>
+          <form class="newsletter" data-newsletter>
+            <label class="sr-only" for="nl-email" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Email address</label>
+            <input id="nl-email" class="control" type="email" placeholder="Email address" autocomplete="off">
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/data.js?v=6"></script>
+  <script src="assets/app.js?v=6"></script>
+</body>
+</html>

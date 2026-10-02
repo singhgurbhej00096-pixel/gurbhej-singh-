@@ -1,0 +1,246 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historic &amp; Prestige — IronForge Market</title>
+  <meta name="description" content="Buy and sell authenticated historic pieces — antique arms and armour, instruments, medals, maps and campaign furniture. Demo interface.">
+  <meta name="theme-color" content="#0a0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230a0b0c'/%3E%3Cpath d='M13 11h14v3.4h-9.6v3.6h8v3.4h-8V29H13z' fill='%23c9cdd1'/%3E%3Cpath d='M24 26h4v3h-4z' fill='%23b4c27a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=6">
+</head>
+<body data-page="heritage">
+  <div data-site-header></div>
+
+  <main>
+    <!-- HERO ---------------------------------------------------------------->
+    <section class="hero h-hero" aria-labelledby="h-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div>
+          <span class="eyebrow brass-eyebrow">Historic &amp; Prestige · Buy &amp; Sell</span>
+          <h1 class="h-display" id="h-title">
+            <span class="line"><span>Heritage,</span></span>
+            <span class="line"><span class="brass-text">authenticated.</span></span>
+          </h1>
+          <p class="hero-lede">A curated marketplace for historic arms &amp; armour, instruments, medals, maps and campaign furniture. Every piece is examined by specialists, every provenance documented, every handover insured.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-brass" href="#collection">Browse the Collection <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="#sell">Sell a Historic Piece</a>
+          </div>
+          <div class="hero-stats">
+            <div><b>2,140</b><span>Pieces authenticated</span></div>
+            <div><b>26</b><span>Specialists</span></div>
+            <div><b>94 yrs</b><span>Avg. provenance</span></div>
+          </div>
+        </div>
+        <div class="hero-visual h-visual" aria-hidden="true">
+          <span class="ring r2"></span>
+          <span class="ring"></span>
+          <div class="stage" data-h-stage></div>
+          <div class="hero-card glass coa-chip">
+            <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="#d9b35f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l2.4 1.8 3-.2.9 2.9 2.4 1.8-.9 2.9.9 2.9-2.4 1.8-.9 2.9-3-.2L12 21.5l-2.4-1.8-3 .2-.9-2.9-2.4-1.8.9-2.9-.9-2.9 2.4-1.8.9-2.9 3 .2z"/><path d="M8.5 12l2.4 2.4 4.6-4.8"/></svg></div>
+            <div><small>Certificate of Authenticity</small><strong>Sikh Tulwar, c. 1840</strong><span class="price mono">IF-HC-2026-0417</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS ------------------------------------------------------------->
+    <section class="section alt" aria-labelledby="proc-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow brass-eyebrow">How it works</span>
+            <h2 id="proc-title">From attic to archive</h2>
+          </div>
+          <p>The same four steps protect buyers and sellers on every Historic &amp; Prestige sale.</p>
+        </div>
+        <ol class="process reveal-stagger">
+          <li><span class="step">01</span><div class="w-icon" data-icon="package"></div><h3>Submit</h3><p>Sellers describe the piece, its provenance and condition, and upload photographs.</p></li>
+          <li><span class="step">02</span><div class="w-icon" data-icon="eye"></div><h3>Authenticate</h3><p>Our Heritage Desk and an independent specialist examine the piece and verify lawful title.</p></li>
+          <li><span class="step">03</span><div class="w-icon" data-icon="badge"></div><h3>List with COA</h3><p>Approved pieces go live with a numbered certificate and a full condition report.</p></li>
+          <li><span class="step">04</span><div class="w-icon" data-icon="shield"></div><h3>Insured handover</h3><p>Funds sit in escrow while a fine-art courier delivers. Buyers get a 14-day review.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- COLLECTION ---------------------------------------------------------->
+    <section class="section" id="collection" aria-labelledby="col-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow brass-eyebrow">Buy · The Collection</span>
+            <h2 id="col-title">Currently offered</h2>
+          </div>
+          <p>One-of-one pieces. Reserve outright, or make a private offer where the seller accepts them.</p>
+        </div>
+
+        <div class="h-filters glass reveal">
+          <div class="filter-chips" data-h-types style="margin:0"></div>
+          <div class="h-selects">
+            <div class="field">
+              <label for="h-era">Era</label>
+              <select id="h-era" class="control"></select>
+            </div>
+            <div class="field">
+              <label for="h-price">Price</label>
+              <select id="h-price" class="control">
+                <option value="">Any price</option>
+                <option value="0-2500">Under $2,500</option>
+                <option value="2500-7500">$2,500 – $7,500</option>
+                <option value="7500-0">$7,500 and above</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="h-sort">Sort</label>
+              <select id="h-sort" class="control">
+                <option value="newest">Newly listed</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="oldest">Oldest first</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-bar"><span data-h-count></span></div>
+        <div class="product-grid reveal-stagger" data-h-grid aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- SELL ---------------------------------------------------------------->
+    <section class="section alt grid-bg" id="sell" aria-labelledby="sell-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow brass-eyebrow">Sell · Consign a piece</span>
+            <h2 id="sell-title">Sell a historic piece</h2>
+          </div>
+          <p>Tell us about your piece. Submissions are reviewed by the Heritage Desk within five business days.</p>
+        </div>
+
+        <div class="sell-layout">
+          <form class="sell-form" data-sell-form novalidate>
+            <fieldset>
+              <legend><span>01</span> The piece</legend>
+              <div class="field">
+                <label for="s-title">Title</label>
+                <input id="s-title" class="control" type="text" maxlength="80" placeholder="e.g. Officer's brass field compass" autocomplete="off">
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="s-type">Category</label>
+                  <select id="s-type" class="control"></select>
+                </div>
+                <div class="field">
+                  <label for="s-era">Era</label>
+                  <select id="s-era" class="control"></select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="s-year">Date (if known)</label>
+                  <input id="s-year" class="control" type="text" maxlength="24" placeholder="e.g. c. 1870" autocomplete="off">
+                </div>
+                <div class="field">
+                  <label for="s-origin">Place of origin</label>
+                  <input id="s-origin" class="control" type="text" maxlength="48" placeholder="e.g. Amritsar, Punjab" autocomplete="off">
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>02</span> Condition &amp; provenance</legend>
+              <div class="field">
+                <label for="s-condition">Condition</label>
+                <select id="s-condition" class="control">
+                  <option value="">Select condition</option>
+                  <option>Excellent</option>
+                  <option>Very good</option>
+                  <option>Good</option>
+                  <option>Fair, restored</option>
+                  <option>Requires conservation</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="s-provenance">Provenance &amp; history</label>
+                <textarea id="s-provenance" class="control" rows="4" maxlength="800" placeholder="How did the piece come to you? Previous owners, auction records, family history, documents…"></textarea>
+              </div>
+              <div class="field">
+                <span class="label-like">Photographs</span>
+                <label class="dropzone" for="s-photos">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="8.5" cy="10" r="1.8"/><path d="M21 16l-5-5-8 8"/></svg>
+                  <span data-drop-label>Drag photos here or click to browse</span>
+                  <small>Up to 6 images · previewed in your browser only, never uploaded</small>
+                  <input id="s-photos" type="file" accept="image/*" multiple>
+                </label>
+                <div class="photo-thumbs" data-photo-thumbs></div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>03</span> Pricing</legend>
+              <div class="form-row">
+                <div class="field">
+                  <label for="s-price">Asking price (USD)</label>
+                  <input id="s-price" class="control" type="number" inputmode="numeric" min="100" step="50" placeholder="e.g. 2500">
+                </div>
+                <div class="field">
+                  <span class="label-like">Offers</span>
+                  <label class="switch"><input id="s-offers" type="checkbox" checked><span class="track"></span><span>Accept private offers</span></label>
+                </div>
+              </div>
+              <label class="check">
+                <input id="s-confirm" type="checkbox">
+                <span>I confirm I own this piece, it may be lawfully sold, and it is not subject to any cultural-property, export or theft claim.</span>
+              </label>
+            </fieldset>
+
+            <button class="btn btn-brass btn-block" type="submit">Submit for Authentication <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <div class="notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg><span><b>Demo interface.</b> Submissions are saved only in this browser so you can see the flow. Nothing is sent to IronForge or any seller.</span></div>
+          </form>
+
+          <aside class="sell-aside">
+            <span class="eyebrow">Live preview</span>
+            <div data-preview></div>
+            <div class="fees" data-fees></div>
+            <div class="accept-card">
+              <h4>We accept</h4>
+              <ul>
+                <li>Antique arms &amp; armour (pre-1900), sold as collectibles</li>
+                <li>Scientific &amp; navigational instruments, timepieces</li>
+                <li>Medals, insignia and documented service groups</li>
+                <li>Maps, manuscripts and campaign furniture</li>
+              </ul>
+              <h4>We don't accept</h4>
+              <ul class="no">
+                <li>Firearms or ammunition of any age</li>
+                <li>Items without lawful title or with unclear export status</li>
+                <li>Objects from active conflict zones or looted contexts</li>
+                <li>Replicas presented as originals</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <div class="subs" data-subs-wrap hidden>
+          <div class="subs-head">
+            <h3>Your submissions</h3>
+            <span class="mono">Saved in this browser</span>
+          </div>
+          <div data-subs></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/data.js?v=6"></script>
+  <script src="assets/app.js?v=6"></script>
+</body>
+</html>
